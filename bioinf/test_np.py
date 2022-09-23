@@ -6,7 +6,8 @@ def test_nan() -> pd.Series:
 
 def test_custom_idx() -> pd.Series:
     idx_temp: list = ['jan', 'feb', 'mar', 'apr']
-    month_tmp_serie: pd.Series = pd.Series(data=idx_temp, dtype='srting')
+    month_tmp_serie: pd.Series = pd.Series(data=idx_temp, dtype='string')
+    return month_tmp_serie
 
 print(test_nan())
 print(test_custom_idx())

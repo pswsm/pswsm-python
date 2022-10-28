@@ -8,6 +8,7 @@ pandas = "*"
 matplotlib = "*"
 pyqt5 = "*"
 pyls = "*"
+pytest = "*"
 
 [dev-packages]
 

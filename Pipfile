@@ -9,6 +9,7 @@ matplotlib = "*"
 pyqt5 = "*"
 pyls = "*"
 pytest = "*"
+seaborn = "*"
 
 [dev-packages]
 

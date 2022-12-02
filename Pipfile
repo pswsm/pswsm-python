@@ -10,6 +10,7 @@ pyqt5 = "*"
 pyls = "*"
 pytest = "*"
 seaborn = "*"
+jupyter = "*"
 
 [dev-packages]
 
